@@ -1,7 +1,10 @@
-namespace Gradebook 
+namespace GradeBook
 {
-    class Book 
+    class Book
     {
-        
+        public void AddGrade(double grade)
+        {
+            
+        }
     }
 }
