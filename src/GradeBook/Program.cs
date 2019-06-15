@@ -6,17 +6,16 @@ namespace GradeBook
     class Program
     {
         static void Main(string[] args)
-        {   
-            Book book2 = new Book();
-            book2.AddGrade(90.1);
-
-            var book = new Book();
+        {  
+            var book = new Book("Robert's Grade Book");
             book.AddGrade(89.1);
+            book.AddGrade(90.5);
+            
+
             
             var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
             grades.Add(56.1);
             
-
             var result = 0.0;
             foreach(var number in grades)
             {
