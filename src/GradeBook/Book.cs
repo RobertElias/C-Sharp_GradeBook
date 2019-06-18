@@ -15,9 +15,6 @@ namespace GradeBook
         {
             grades.Add(grade);
         }
-
-
-
         public void ShowStatistics()
         {
 
